@@ -5,7 +5,7 @@ radio.onReceivedNumber(function (receivedNumber) {
     }
     if (receivedNumber == 2) {
         radio.sendNumber(input.lightLevel())
-        radio.sendString("L")
+        radio.sendString(".L")
     }
 })
 radio.setGroup(743)
